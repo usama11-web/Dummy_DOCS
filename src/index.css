@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:Gilroy-Light ;
+    src: url(../public/font/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
+*{
+    font-family: Gilroy-Light;
+}
+::selection{
+    color: rgba(153, 205, 50, 0.338);
+}
